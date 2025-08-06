@@ -21,7 +21,7 @@ function expandedForm(num) {
     // 70304 --> "70000 + 300 + 4"
 
   //!
-  //covert the number a string
+  //covert the number to string
   //split('') the string 
   //iterate through each array value
   //multiply num[i] by 10 power the place value - Math.pow(10, placevalue)
