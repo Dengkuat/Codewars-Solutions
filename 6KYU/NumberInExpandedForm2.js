@@ -1,4 +1,4 @@
-// NumberInExpandedForm2
+// NumberInExpandedForm2 //
 function expandedForm(num) {
     // Your code here
     const digits = String(num).split('.')
