@@ -16,3 +16,4 @@ function findAverage(nums) {
 
     //steps
     //array so- use reduce - a call back function that return a single digits of a result of the input array 
+    //divided by the length of the array to find their average
