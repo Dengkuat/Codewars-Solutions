@@ -1,7 +1,12 @@
 function binaryToString(binary) {
     binary = binary.match(/.{1,8}/g);
-   return binary.map(e => String.fromCharCode(parseInt(binary, 2))).join('');
-}
+    if(!binary){
+      return '';
+    }else{
+      
+     return binary.map(e => String.fromCharCode(parseInt(e, 2))).join('');
+  }
+    }
 
 //?input
 //the input is a string of binary integers
