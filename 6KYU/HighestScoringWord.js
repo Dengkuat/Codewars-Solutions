@@ -9,7 +9,7 @@ function high(x){
  
     const Maximum = Math.max(...final);
     const char = final.indexOf(Maximum);
-    return words[char]; // return the word at that index
+    return words[char]; 
  }
  
 
