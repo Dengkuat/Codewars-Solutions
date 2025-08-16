@@ -6,10 +6,6 @@ function findOutlier(integers){
     return result.length === 1? Number(result):Number(oddInit)
 
   }
-  console.log(findOutlier([2, 4, 0, 100, 4, 11, 2602, 36]));
-  console.log(findOutlier([160, 3, 1719, 19, 11, 13, -21]));
-
-
   //?input
   //given an array with length > 3 but could be very large containing integers
 
