@@ -22,7 +22,7 @@ function solution(str){
 
 //!test cases
 //  'abc' =>  ['ab', 'c_'] - //adding this to end
-//  'abcdef' => ['ab', 'cd', 'ef']
+//  'abcdef' => ['ab', 'cd', 'ef'] - //if there is nothing then we leave it as it is
 
 //split them into 2 characters'
 //then we check if the last one is 2 characters else we append there he underscrore;
