@@ -21,7 +21,7 @@ function solution(str){
 
 
 //!test cases
-//  'abc' =>  ['ab', 'c_']
+//  'abc' =>  ['ab', 'c_'] - //adding this to end
 //  'abcdef' => ['ab', 'cd', 'ef']
 
 //split them into 2 characters'
