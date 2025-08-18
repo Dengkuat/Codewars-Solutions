@@ -13,7 +13,7 @@ function persistence(num) {
 console.log(persistence(333)); 
 
  //?input
- //we have an input which is a positive num / intger
+ //we have an input which is a positive num / intger non negative
 
  //*info
  //the the return value should be the mutlplicative persistence
