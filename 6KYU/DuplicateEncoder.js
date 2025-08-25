@@ -32,5 +32,9 @@ console.log(duplicateEncode("recede"));
 // "(( @"     =>  "))((" 
 
 //
-// so l was thinking to change everything into lower case first so they are all matching 
-//iteate though each then if the character already exists 
+// Convert word to lowercase
+//creating an empty dictionarythat will store each character 
+//for each character in the word if it already exist then we will increase its count by 1 else we will set its count as 1
+//creating an aemty string called result to store our return value
+//for each character in the word if it has one then we replace it with (
+// else )       
