@@ -7,3 +7,5 @@ function productFib(prod){
   //*info
 
   //!test cases
+
+  //unfinished work!!!
