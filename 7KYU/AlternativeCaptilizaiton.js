@@ -29,3 +29,5 @@ function capitalize(s){
 //
 //iterate through the input string
 //then captalize the ones that are in the even index as vice versa for the other one
+//return the final output
+
