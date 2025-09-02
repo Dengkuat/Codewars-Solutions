@@ -10,8 +10,6 @@ function allNonConsecutive (arr) {
     });
     return nonConsecutive;
 }
-console.log(allNonConsecutive([1,2,3,4,6,7,8,15,16]));
-
 //?input
 //an array of numbers
 
