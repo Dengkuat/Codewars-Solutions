@@ -7,7 +7,9 @@ function expandedForm(num) {
     .join(' + ');
   }
 
-
+  funtion
+  c
+ console.log(String())
   //?input
   //a whole number 
   //positive number
