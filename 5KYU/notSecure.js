@@ -3,19 +3,18 @@ function alphanumeric(string){
 
     string = string.split('');
     const result = string.map(char => {
-      const aphabet = !/[a-z]/;
-      const letters = !/[0-9]/;
-      if(aphabet.contains(char) || letters.contains(char)){
+      const isLetter = /[a-zA-Z]/.test(char);
+      const isNumber = /[0-9]/.test(char);
+      if(isLetter || isNumber){
         return true;
       }else{
         return false;
       }
     });
-    // const result = string.some(char => !/[a-z]/.test(char) || !/[0-9]/);
-    return result;
+      return result.every(Boolean);
         
   }
-  console.log(alphanumeric("Mazinkaiser0-"));
+  console.log(alphanumeric("Mazinkaiser0-]"));
   console.log(alphanumeric("hello world_"));
 
   //?input
