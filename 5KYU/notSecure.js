@@ -61,3 +61,16 @@ function alphanumeric(string){
 //at the same time we shall change all the letters to lower case so they all easy to test 
 //// !/[a-z]/.test(char)
 //we could use if some() array method that can check if there are items there that we dont need
+
+/*
+from other solutions in the same katta that is satisfying 
+const alphanumeric = (str) => {
+  if (!str.length) return false;
+  const ALLOWED_CHARS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  for (let char of str) {
+    if (!ALLOWED_CHARS.includes(char)) return false;
+  }
+  return true;
+};
+
+*/
