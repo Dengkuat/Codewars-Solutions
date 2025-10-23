@@ -1,5 +1,5 @@
 const repeats = arr =>  arr.sort((a, b) => a - b).filter((num, index) => num !== arr[index - 1] && num !== arr[index + 1]).reduce((a, b) => a+b);
-
+console.log(repeats([4,5,7,5,4,8]));
 //?input
 //so we are given an array of numbers as out input
 //each number occurs twice apart from 2 numbers only
@@ -15,4 +15,4 @@ const repeats = arr =>  arr.sort((a, b) => a - b).filter((num, index) => num !==
 //soln
 //i will sort the array in ascending order so that the repeating ones are togehter
 //then filter the ones where the previous or and the next one are the same
-//using reduce to sum them up
+//using reduce to sum the unique
