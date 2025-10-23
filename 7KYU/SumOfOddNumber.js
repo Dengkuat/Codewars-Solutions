@@ -1,7 +1,6 @@
-function rowSumOddNumbers(n) {
+const rowSumOddNumbers = n =>  {
 	return n ** 3;
 }
-console.log(rowSumOddNumbers(5));
 
 //?input
 //we are given a triagle of consecutive odd numbers
