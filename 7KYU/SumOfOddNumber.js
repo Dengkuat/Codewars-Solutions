@@ -1,6 +1,4 @@
-const rowSumOddNumbers = n =>  {
-	return n ** 3;
-}
+const rowSumOddNumbers = n => n ** 3;
 
 //?input
 //we are given a triagle of consecutive odd numbers
