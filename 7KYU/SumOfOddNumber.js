@@ -10,7 +10,7 @@ const rowSumOddNumbers = n => n ** 3;
 // e.g.: (Input --> Output)
 
 // 1 -->  1
-// 2 --> 3 + 5 = 8
+// 2 --> 3 + 5 =  8
 
 // n(n-1) + 1
 
