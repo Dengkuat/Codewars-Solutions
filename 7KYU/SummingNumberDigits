@@ -1,0 +1,12 @@
+const sumDigits = number => String(number).replace(/\D/g, "").split('').map(Number).reduce((a,b)=>a+b);
+
+//?input
+//numbers
+
+//*info
+//so we have to sum up the numbers digits
+
+//!test cases
+// 10 --> 1
+// 99 --> 18
+// -32 --> 5
