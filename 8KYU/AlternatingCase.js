@@ -7,7 +7,7 @@ String.prototype.toAlternatingCase = function () {
 
   //?input
   //a function that takes in a string 
-  //the string can be case insenstive
+  //the string can be case insenstive    
 
   //*info
   //return a string of characters
