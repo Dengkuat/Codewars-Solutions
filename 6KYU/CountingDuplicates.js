@@ -3,7 +3,7 @@ function duplicateCount(text){
     text = text.toLowerCase().split('').sort();
     let count =[];
     const repeat =  text.map((char,index, array) => {
-        if(char === array[index+1]) count.push(char);
+        // if(char === array[index+1]) count.push(char)
     });
     const result = [...new Set(count)].length;
     return result;
